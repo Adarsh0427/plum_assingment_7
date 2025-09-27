@@ -18,7 +18,7 @@ class Settings:
     RATE_LIMIT_REQUESTS_PER_MINUTE = 5
     
     # Gemini AI Settings
-    GEMINI_API_KEY = os.getenv('GEMINI_API_KEY', 'AIzaSyAWJnXU0hbIINvFprf7N1rA0VwDu4WZeOo')
+    GEMINI_API_KEY = os.getenv('GEMINI_API_KEY')
     GEMINI_MODEL = os.getenv('GEMINI_MODEL', "gemini-2.0-flash-lite")
 
 settings = Settings()

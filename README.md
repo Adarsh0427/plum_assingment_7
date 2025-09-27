@@ -1,9 +1,3 @@
----
-noteId: "4cf345609b9111f0b720e53214051fc0"
-tags: []
-
----
-
 # AI-Powered Medical Report Simplifier
 
 OCR-based medical report processing application that automatically extracts, structures, and validates information from scanned medical documents.
